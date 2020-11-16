@@ -1,0 +1,28 @@
+{
+  "id": "metatags-sidebar",
+  "name": "Metatags Sidebar",
+  "srcdoc": "./build/index.html",
+  "fieldTypes": ["Symbol"],
+  "sidebar": true,
+  "parameters": {
+    "installation": [
+      {
+        "description": "Entry field id to be used for metatags (must be a valid object field)",
+        "id": "metaTagsField",
+        "name": "Metatags object field name",
+        "required": true,
+        "type": "Symbol",
+        "default": "metaTags"
+      },
+      {
+        "description": "Entry field id to be used for image (must be a valid asset single reference field)",
+        "id": "metaImageField",
+        "name": "Metatags image field name",
+        "required": true,
+        "type": "Symbol",
+        "default": "metaImage"
+      }
+    ],
+    "instance": []
+  }
+}
