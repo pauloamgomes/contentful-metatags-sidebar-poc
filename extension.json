@@ -1,7 +1,7 @@
 {
   "id": "metatags-sidebar",
   "name": "Metatags Sidebar",
-  "srcdoc": "./build/index.html",
+  "srcdoc": "./docs/index.html",
   "fieldTypes": ["Symbol"],
   "sidebar": true,
   "parameters": {
